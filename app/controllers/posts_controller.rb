@@ -28,5 +28,5 @@ class PostsController < ApplicationController
 		@post.update(title: params[:post][:title])
 		redirect_to post_path(@post)
 	end
-	
+
 end
